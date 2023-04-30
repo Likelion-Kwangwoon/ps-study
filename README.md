@@ -43,7 +43,7 @@
 ```
 
 # Commit message & PR rule ⛓️
-⚠️ 자세한 사항은 노션을 참고해주세요.
+⚠️ 자세한 사항은 노션을 참고해주세요.<br>
 ⚠️ 커밋 메세지 및 PR 둘다 작성해주셔야 합니다!
 
 ### Commit message Rule
