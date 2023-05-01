@@ -62,11 +62,12 @@
 ### 2-2 PR Rule ⛓️
 ``` 날짜(년월일) ```
 - PR예시: 230501
-- 막히시는 부분이 있으시면 PR 타이틀에 추가로 적으셔서 도움을 받아보세요 😉
+- PR예시2: 230501 도움필요
+- 질문이 있으시면 PR 타이틀에 추가 내용을 적으셔서 도움을 받아보세요. PR 본문에 상세설명을 적어놓으시면 더 편하겠죠?😉
 - 작성 후 **라벨**을 선택해주셔야합니다!
 
 ### 2-3 PR 예시 이미지
-![PR올리기완료](https://velog.velcdn.com/images/dasapcr/post/8ab7882f-6f41-4fb2-943f-760755334d9a/image.PNG)
+![](https://velog.velcdn.com/images/dasapcr/post/913b80de-5c9c-4716-8bca-394dbe27db62/image.png)
 ### 2-4 PR label 종류 (플랫폼,언어로 기본 2가지 선택)
 ![PR라벨](https://velog.velcdn.com/images/dasapcr/post/88d391e4-5288-46c3-a667-4a794d4427de/image.png)
 
