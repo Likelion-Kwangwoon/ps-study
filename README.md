@@ -5,7 +5,7 @@
 ⚠️ 다음 날로 넘어가기 전에, 본인의 실제 실력보다 낮은 문제를 급하게 풀이해서 올리는 것은 **지양**해주세요! <br>
 ⚠️ 자세한 공지사항은 [Notion](https://kw-likelion11.notion.site/PS-study-3f16e5a9bc1a4aaf95313e089cff98f7)에 정리해놨으니, 정독 부탁드립니다.<br>
 
-# KWPS Member💡
+# KWPS Member💡  
 <a href="https://github.com/Chaerim0626">
   <img src="https://github.com/Chaerim0626.png" width="100">
 <a href="https://github.com/offbeat24">
