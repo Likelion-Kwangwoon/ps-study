@@ -68,7 +68,7 @@
 - 작성 후 **라벨**을 선택해주셔야합니다!
 
 ### 2-3 PR 예시 이미지
-![](https://velog.velcdn.com/images/dasapcr/post/913b80de-5c9c-4716-8bca-394dbe27db62/image.png)
+![](https://velog.velcdn.com/images/dasapcr/post/5169486a-23df-49d6-a89a-563515c394cd/image.PNG)
 ### 2-4 PR label 종류 (플랫폼,언어로 기본 2가지 선택)
 ![PR라벨](https://velog.velcdn.com/images/dasapcr/post/88d391e4-5288-46c3-a667-4a794d4427de/image.png)
 
