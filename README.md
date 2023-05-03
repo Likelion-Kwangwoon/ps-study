@@ -5,7 +5,7 @@
 ⚠️ 다음 날로 넘어가기 전에, 본인의 실제 실력보다 낮은 문제를 급하게 풀이해서 올리는 것은 **지양**해주세요! <br>
 ⚠️ 자세한 공지사항은 [Notion](https://kw-likelion11.notion.site/PS-study-3f16e5a9bc1a4aaf95313e089cff98f7)에 정리해놨으니, 정독 부탁드립니다.<br>
 
-# KWPS Member💡
+# KWPS Member💡  
 <a href="https://github.com/Chaerim0626">
   <img src="https://github.com/Chaerim0626.png" width="100">
 <a href="https://github.com/offbeat24">
@@ -52,19 +52,23 @@
 ⚠️ 커밋 메세지 및 PR 둘다 작성해주셔야 합니다!
 
 ### 2-1 Commit message Rule ⛓️
-``` [문제번호 or 난이도] 문제명 ```
+문제 개수 1개: ``` [문제번호 or 난이도] 문제명 ```<br>
+문제 개수 1개 이상: ```[문제번호 or 난이도(_ 혹은 ,로 문제구분)] 문제명1,()문제명2,(_)...```
+- 1문제 푸실때마다 commit 하시든, 여러 문제를 풀고 commit하시든 본인 자유입니다.
 - 백준 예시1: ```[10807] 개수세기```
 - 프로그래머스 예시2: ```[LV.2] 택배 배달과 수거하기```
 - SW익스퍼트아카데미 예시3: ```[16912] 랜덤 워킹과 이진트리```
 - 리트코드 예시4: ```[238] Product of Array Except Self```
 
 ### 2-2 PR Rule ⛓️
-``` [문제번호 or 난이도] 문제명 ```
-
-작성 후 **라벨**을 선택해주셔야합니다!
+``` 날짜(년월일) ```
+- PR예시: ```230501```
+- PR예시2: ```230501 도움필요```
+- 질문이 있으시면 PR 타이틀에 **추가 내용**을 적으셔서 도움을 받아보세요. **PR 본문**에 상세설명을 적어놓으시면 더 편하겠죠?😉
+- 작성 후 **라벨**을 선택해주셔야합니다!
 
 ### 2-3 PR 예시 이미지
-![PR올리기완료](https://velog.velcdn.com/images/dasapcr/post/8ab7882f-6f41-4fb2-943f-760755334d9a/image.PNG)
+![](https://velog.velcdn.com/images/dasapcr/post/5169486a-23df-49d6-a89a-563515c394cd/image.PNG)
 ### 2-4 PR label 종류 (플랫폼,언어로 기본 2가지 선택)
 ![PR라벨](https://velog.velcdn.com/images/dasapcr/post/88d391e4-5288-46c3-a667-4a794d4427de/image.png)
 
