@@ -22,3 +22,9 @@ def solution(phoneBook):
 # ( 크기가 다를경우 순서대로 생성후 None값 삽입) -for문과 사용을 많이 한다
 
 # iterable 자료형의 각각의 요소를 나눈 후 순서대로 묶어서 요소 개수만큼 새로운 iterable 자료형을 생성
+
+
+phone_book = [123,415]
+for nums in phone_book: 
+    nums = 1
+print(phone_book)
