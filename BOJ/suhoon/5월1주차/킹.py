@@ -2,72 +2,46 @@ from copy import deepcopy
 
 a, b ,N = input().split()
 N = int(N)
-board = [[0 for i in range(8)] for j in range(8)]
 a = list(a)
 b = list(b)
 a[0] = ord(a[0])-64
 b[0] = ord(b[0])-64
-
 a = list(map(int, a))
 b = list(map(int, b))
-a[0], a[1] = a[1] ,a[0]
-b[0], b[1] = b[1] ,b[0]
-# print("king:"+ a[1] + str(a[0]))
-# print("dol:" + b[1] + str(b[0]))
-
+dic = {
+    'R' : (1,0),
+    'L' : (-1,0),
+    'B' : (0,-1),
+    'T' : (0,1),
+    'RT' : (1,1),
+    'LT' : (-1,1),
+    'RB' : (1,-1),
+    'LB' : (-1,-1)
+}
 
 for i in range(N):
-    temp_a = deepcopy(a)
-    temp_b = deepcopy(b)
     command = input()
-    flag = False
+    dx,dy = dic[command]
+    ax = a[0] + dx
+    ay = a[1] + dy
 
-    if command == "R":
-        temp_a[1] += 1
-        temp_b[1] += 1
-    elif command == "L":
-        temp_a[1] -= 1
-        temp_b[1] -= 1
-    elif command == "B":
-        temp_a[0] -= 1
-        temp_b[0] -= 1
-    elif command == "T":
-        temp_a[0] += 1
-        temp_b[0] += 1
-    elif command == "RT":
-        temp_a[0] += 1
-        temp_b[0] += 1
-        temp_a[1] += 1
-        temp_b[1] += 1
-    elif command == "LT":
-        temp_a[0] += 1
-        temp_b[0] += 1
-        temp_a[1] -= 1
-        temp_b[1] -= 1
-    elif command == "RB":
-        temp_a[0] -= 1
-        temp_b[0] -= 1
-        temp_a[1] += 1
-        temp_b[1] += 1
-    elif command == "LB":
-        temp_a[0] -= 1
-        temp_b[0] -= 1
-        temp_a[1] -= 1
-        temp_b[1] -= 1
-
-    for i,j in zip(temp_a, temp_b):
-        if i >= 9 or i< 1 or j >=9 or j <1:
-            flag = True
+    if 0< ax <= 8 and 0< ay<= 8:
+        if ax == b[0] and ay == b[1]:
+            bx = b[0] + dx
+            by = b[1] + dy
+            if 0 < bx <= 8 and 0< by<=8:
+                a = [ax,ay]
+                b = [bx,by]
+        else:
+            a = [ax,ay]
     
-    if flag == False:
-        a = deepcopy(temp_a)
-        b = deepcopy(temp_b)
-            
 
-a[0], a[1] = a[1] ,a[0]
-b[0], b[1] = b[1] ,b[0]
-print(a)
-print(b)
+print(f'{chr(a[0] + 64)}{a[1]}')
+print(f'{chr(b[0] + 64)}{b[1]}')                
+
+
+
+
 
 
 
