@@ -8,25 +8,25 @@
 # KWPS Member💡  
 <div align='center'>
 <a href="https://github.com/Chaerim0626">
-  <img src="https://github.com/Chaerim0626.png" width="100">
+  <img src="https://github.com/Chaerim0626.png" width="120">
 <a href="https://github.com/offbeat24">
-  <img src="https://github.com/offbeat24.png" width="100">
+  <img src="https://github.com/offbeat24.png" width="120">
 <a href="https://github.com/chs98412">
-  <img src="https://github.com/chs98412.png" width="100">
+  <img src="https://github.com/chs98412.png" width="120">
 <a href="https://github.com/linavell">
-  <img src="https://github.com/linavell.png" width="100">
+  <img src="https://github.com/linavell.png" width="120">
 <a href="https://github.com/chysis">
-  <img src="https://github.com/chysis.png" width="100"> <br>
+  <img src="https://github.com/chysis.png" width="120"> <br>
 <a href="https://github.com/hyoribogo">
-  <img src="https://github.com/hyoribogo.png" width="100">
+  <img src="https://github.com/hyoribogo.png" width="120">
 <a href="https://github.com/kimjaeyoonn">
-  <img src="https://github.com/kimjaeyoonn.png" width="100">
+  <img src="https://github.com/kimjaeyoonn.png" width="120">
 <a href="https://github.com/s2hoon">
-  <img src="https://github.com/s2hoon.png" width="100">
+  <img src="https://github.com/s2hoon.png" width="120">
 <a href="https://github.com/ksweeni">
-  <img src="https://github.com/ksweeni.png" width="100">
+  <img src="https://github.com/ksweeni.png" width="120">
 <a href="https://github.com/ImNuam">
-  <img src="https://github.com/ImNuam.png" width="100">
+  <img src="https://github.com/ImNuam.png" width="120">
 </div>
 <hr>
 <br>
