@@ -6,6 +6,7 @@
 ⚠️ 자세한 공지사항은 [Notion](https://kw-likelion11.notion.site/PS-study-3f16e5a9bc1a4aaf95313e089cff98f7)에 정리해놨으니, 정독 부탁드립니다.<br>
 
 # KWPS Member💡  
+<div align='center'>
 <a href="https://github.com/Chaerim0626">
   <img src="https://github.com/Chaerim0626.png" width="100">
 <a href="https://github.com/offbeat24">
@@ -26,7 +27,7 @@
   <img src="https://github.com/ksweeni.png" width="100">
 <a href="https://github.com/ImNuam">
   <img src="https://github.com/ImNuam.png" width="100">
-
+</div>
 <hr>
 <br>
   
