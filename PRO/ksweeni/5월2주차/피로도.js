@@ -12,6 +12,5 @@ function solution(k, dungeons) {
       answer = Math.max(answer, depth);
     }
     DFS(k, 0);
-  
     return answer;
   }
