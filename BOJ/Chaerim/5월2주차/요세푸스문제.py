@@ -11,3 +11,5 @@ while len(dq) > 0:
     arr.append(dq.popleft())
 
 print("<"+str(arr)[1:-1]+">")
+
+#1158
