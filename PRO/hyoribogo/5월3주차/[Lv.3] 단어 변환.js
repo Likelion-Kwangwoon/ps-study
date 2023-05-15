@@ -8,7 +8,6 @@ function solution(begin, target, words) {
   const dfs = (change, cnt) => {
       if(change === target) {
           result.push(cnt)
-          return cnt
       }
       
       const fw = words.filter(word => {
@@ -19,15 +18,14 @@ function solution(begin, target, words) {
           return diffCnt === 1 && !visited[words.indexOf(word)]
       })
       
-      if(!fw.length) return 0
+      if(!fw.length) return
       
-      return fw.forEach(word => {
+      fw.forEach(word => {
           visited[words.indexOf(word)] = true
           dfs(word, cnt + 1)
       })
   }
   
   dfs(begin, 0)
-  
   return Math.min(...result)
 }
