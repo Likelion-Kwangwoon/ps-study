@@ -21,5 +21,5 @@ for _ in range(t):
 
     for k in range(len(dq2)):
         print(dq2.popleft(), end="")
-
+  
 #13417 data structure
