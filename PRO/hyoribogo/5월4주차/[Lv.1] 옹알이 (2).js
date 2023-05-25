@@ -4,7 +4,7 @@ function solution(babbling) {
     
     for(let b of babbling) {
         for(const word of words) {
-            if(b.indexOf(word+word) !== -1) break
+            if(b.includes(word + word)) break
             b = b.replaceAll(word, " ")
         }
         
