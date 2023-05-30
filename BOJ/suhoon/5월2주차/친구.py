@@ -41,5 +41,5 @@ for i in range(1,N+1):
     visited = [False for i in range(N+1)]
     BFS(graph, visited, i)               
     
-print(graph)
+#print(graph)
 print(result)

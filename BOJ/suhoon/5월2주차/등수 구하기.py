@@ -17,4 +17,3 @@ numbers.sort(reverse = True)
 
 idx = numbers.index(P)
 print(idx+1)
-print(numbers)

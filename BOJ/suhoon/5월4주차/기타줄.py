@@ -12,5 +12,5 @@ brand1.sort()
 k = N // 6
 t = N %  6
 
-answer = min(brand1[0]*N,brand6[0]*k + brand1[0]*t,brand6[0]*(k+1))
+answer = min(brand1[0]*N, brand6[0]*k + brand1[0]*t, brand6[0]*(k+1))
 print(answer)

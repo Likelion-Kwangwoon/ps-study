@@ -1,29 +1,26 @@
 def solution(N, number):
-    answer = -1
-    dp = []
     
-    for i in range (1,9) : 
-    # i = N의 개수
-        all_case = set()
-        check_number = int(str(N)* i)
-        # {N}, {NN} , {NNN}...
-        all_case.add(check_number)
-        
-        for j in range(0,i-1):
-        #j 개를 사용해서 만든 값들
-            for op1 in dp[j]:
-                for op2 in dp[-j-1] :
-                    all_case.add(op1 - op2)
-                    all_case.add(op1 + op2)
-                    all_case.add(op1 * op2)
+    if number == N:
+        return 1
+    answer = -1
+    
+    li = [set() for i in range(8)]
+    
+    for i in range(len(li)):
+        li[i].add(int(str(N)*(i+1)))
+    
+    for i in range(1,8):
+        for j in range(i):
+            for op1 in li[j]:
+                for op2 in li[i-j-1]:
+                    li[i].add(op1+op2)
+                    li[i].add(op1-op2)
+                    li[i].add(op1*op2)
                     if op2 != 0:
-                        all_case.add(op1 // op2)
-                        
-        if number in all_case:
-            answer = i
+                        li[i].add(op1//op2)
+        if number in li[i]:
+            answer = i +1
             break
-            
-        dp.append(all_case) 
         
-
+    #print(li)
     return answer
