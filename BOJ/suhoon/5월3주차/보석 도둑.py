@@ -1,7 +1,7 @@
 import heapq
 import sys
 N, K = map(int, sys.stdin.readline().split())
-q = heapq()
+heap = []
 bosuk = []
 bags = []
 for i in range(N):
@@ -13,13 +13,8 @@ for i in range(K):
 
 bosuk.sort()
 bags.sort()
-#print(C)
-sum =0
 
-for bag in bags:
-
-    while bosuk and bag >= bosuk[0][0]:
-
+heapq.heappush(heap,4)
 
 
 
