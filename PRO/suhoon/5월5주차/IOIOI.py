@@ -4,6 +4,7 @@ S = input()
 
 cursor , count , result = 0,0,0
 
+
 while cursor <(M-1):
     if S[cursor: cursor+3] == 'IOI':
         cursor +=2
