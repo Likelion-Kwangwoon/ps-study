@@ -18,7 +18,6 @@ memo[0] = thing[0][1]
 for i in range(1,N):
 
 
-
     if thing[i][0] + 
     
 
