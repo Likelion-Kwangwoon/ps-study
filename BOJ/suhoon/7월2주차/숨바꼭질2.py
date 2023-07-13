@@ -20,7 +20,7 @@ def bfs(n, K):
             
         for next in (2*v, v+1, v-1):
             if 0 <= next <= MAX:
-                # 첫방문 혹은 방문 시간이 같은 경우가 이미 있음(가장 빠른 시간 방법의 수를 위해)
+                # 첫방문 혹은 방문 시간이 같은 경우가 이미 있음
                 if(visited[next] == -1 or visited[next] == visited[v] + 1):
                     visited[next] = visited[v] + 1
                     queue.append(next)
