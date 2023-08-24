@@ -11,9 +11,9 @@
 <a href="https://github.com/offbeat24">
   <img src="https://github.com/offbeat24.png" width="120">
 <a href="https://github.com/linavell">
-  <img src="https://github.com/linavell.png" width="120">
+  <img src="https://github.com/linavell.png" width="120"> <br>
 <a href="https://github.com/chysis">
-  <img src="https://github.com/chysis.png" width="120"> <br>
+  <img src="https://github.com/chysis.png" width="120"> 
 <a href="https://github.com/s2hoon">
   <img src="https://github.com/s2hoon.png" width="120">
 <a href="https://github.com/ksweeni">
