@@ -1,22 +1,13 @@
-import sys
-input = sys.stdin.readline
-
 A,B,C,M = map(int,input().split())
+piro, time = 0,0
 work = 0
-piro = 0
-i =0
-
-if A > M:
-    print(0)
-else:
-    while i < 24:
-        i += 1
-        if piro + A <= M:
-            work += B
-            piro += A
-        else:
-            if piro - C < 0:
-                piro = 0
-            else:
-                piro -= C
-    print(work)
+while time < 24:
+    time += 1
+    if piro + A > M:
+        piro -= C
+        if piro < 0:
+            piro = 0
+    else:
+        piro += A
+        work += B
+print(work)
